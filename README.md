@@ -17,11 +17,11 @@ Papago API 함수 결과값을 받아서 한글파일로 저장하는 함수
 def trans(id, secret, inputfile, line=20)
 
 ## 20라인까지 번역 결과물
-문서 페이지 수 :  13
-Text length :  68569
-문장 길이 :  954
-번역결과 0 : 적층 제조 19 (2018) 114–126 Science Direct 적층 제조 저널 홈 페이지: www.
-번역결과 1 : 그밖에 더 나은
+문서 페이지 수 :  13\n
+Text length :  68569\n
+문장 길이 :  954\n
+번역결과 0 : 적층 제조 19 (2018) 114–126 Science Direct 적층 제조 저널 홈 페이지: www.\n
+번역결과 1 : 그밖에 더 나은\n
 번역결과 2 : com/locate/addma 전체 길이 아티클 Luke Scime jack, Jack Beuth Next Manufacturing Center, 기계공학부, Carnegie Mellon University, 5000 Forbes Ave에서 훈련된 컴퓨터 비전 알고리즘 Luke Scime를 사용한 레이저 분말 적층 제조 공정에서의 이상 탐지 및 분류.
 번역결과 3 : , Pittsburgh, PA 15213, 미국 기사 기사: 2017년 9월 25일 수정된 형태로 2017년 5월 3일 수령 2017년 11월 16일 수락됨 2017년 11월 16일 온라인으로 사용 가능 키워드: 적층 제조 컴퓨터 비전 기계 학습 현장 모니터링 이상 징후 확산 산업별 LPBF(Laser Powder Bed Fusion) 적층 제조의 급속한 도입에도 불구하고 현재 공정은 대부분 개방 루프 상태로 유지되며 실시간 모니터링 기능이 제한됩니다.
 번역결과 4 : 일부 기계는 빌드 중에 파우더베드 시각화를 제공하지만 자동화된 분석 기능이 부족합니다.
