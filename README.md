@@ -18,7 +18,6 @@ def trans(id, secret, inputfile, line=20)
 
 ## 20라인까지 번역 결과물
 문서 페이지 수 :  13
-
 Text length :  68569
 
 문장 길이 :  954
