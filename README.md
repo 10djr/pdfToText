@@ -1,4 +1,4 @@
-# pdfToText
+## pdfToText
 Python code, PDF file to Text file
 
 파이썬프로그램.
@@ -10,35 +10,35 @@ PyMuPDF 모듈을 이용하여 영문 PDF 파일에서 문자를 추출하여 �
 Papago API는 한 번에 5,000자 1일에 10,000자 까지 번역 서비스를 제공한다.
 
 
->네이버 파파고 API 번역 함수
+####>네이버 파파고 API 번역 함수
 
->>*def papagoAPI(id, secret, sentence)*
-
-
->Pdf 파일에서 영어 문자를 추출하나 모든 단어에 개행문자 "\n"이 포함되어 있어서 "\n"을 제거한다음 단어에 "." 마침표가 포함된 단어를 정규표현식으로 찾아서 "\n"을 포함,
-
->하나의 문장을 만들고 영어텍스트 파일로 저장하는 함수
-
->>*def pdfToText(inputFile)*
+####>>*def papagoAPI(id, secret, sentence)*
 
 
->Papago API 함수 결과값을 받아서 한글파일로 저장하는 함수
+####>Pdf 파일에서 영어 문자를 추출하나 모든 단어에 개행문자 "\n"이 포함되어 있어서 "\n"을 제거한다음 단어에 "." 마침표가 포함된 단어를 정규표현식으로 찾아서 "\n"을 포함,
 
->>*def trans(id, secret, inputfile, line=20)*
+####>하나의 문장을 만들고 영어텍스트 파일로 저장하는 함수
+
+####>>*def pdfToText(inputFile)*
+
+
+####>Papago API 함수 결과값을 받아서 한글파일로 저장하는 함수
+
+####>>*def trans(id, secret, inputfile, line=20)*
 
 ### 20라인까지 번역 결과물
 
->>문서 페이지 수 :  13
+*문서 페이지 수 :  13*
 
->>Text length :  68569
+*Text length :  68569*
 
 *문장 길이 :  954*
 
-번역결과 0 : 적층 제조 19 (2018) 114–126 Science Direct 적층 제조 저널 홈 페이지: www.
+*번역결과 0 : 적층 제조 19 (2018) 114–126 Science Direct 적층 제조 저널 홈 페이지: www.
 
-번역결과 1 : 그밖에 더 나은
+*번역결과 1 : 그밖에 더 나은
 
-번역결과 2 : com/locate/addma 전체 길이 아티클 Luke Scime jack, Jack Beuth Next Manufacturing Center, 기계공학부, Carnegie Mellon University, 5000 Forbes Ave에서 훈련된 컴퓨터 비전 알고리즘 Luke Scime를 사용한 레이저 분말 적층 제조 공정에서의 이상 탐지 및 분류.
+*번역결과 2 : com/locate/addma 전체 길이 아티클 Luke Scime jack, Jack Beuth Next Manufacturing Center, 기계공학부, Carnegie Mellon University, 5000 Forbes Ave에서 훈련된 컴퓨터 비전 알고리즘 Luke Scime를 사용한 레이저 분말 적층 제조 공정에서의 이상 탐지 및 분류.
 
 번역결과 3 : , Pittsburgh, PA 15213, 미국 기사 기사: 2017년 9월 25일 수정된 형태로 2017년 5월 3일 수령 2017년 11월 16일 수락됨 2017년 11월 16일 온라인으로 사용 가능 키워드: 적층 제조 컴퓨터 비전 기계 학습 현장 모니터링 이상 징후 확산 산업별 LPBF(Laser Powder Bed Fusion) 적층 제조의 급속한 도입에도 불구하고 현재 공정은 대부분 개방 루프 상태로 유지되며 실시간 모니터링 기능이 제한됩니다.
 
