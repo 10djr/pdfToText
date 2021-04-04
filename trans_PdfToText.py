@@ -4,7 +4,7 @@ import time
 import re
 
 # English to Korean Translation Func.
-def papago_api(id, secret, sentence):
+def papagoAPI(id, secret, sentence):
     request_url = "https://openapi.naver.com/v1/papago/n2mt"
     headers ={"X-Naver-Client-Id": id, "X-Naver-Client-Secret": secret}
     params = {"source": "en", "target": "ko", "text": sentence}
@@ -59,7 +59,7 @@ def pdfToText(inputFile):
 def trans(id, secret, inputtext, line=10):
     text = ""
     for i in range(line):
-        result_txt = papago_api(id, secret, inputtext[i])
+        result_txt = papagoAPI(id, secret, inputtext[i])
         print("번역결과 {} : {}".format(i, result_txt))
         text = result_txt + "\n"
         time.sleep(2)
