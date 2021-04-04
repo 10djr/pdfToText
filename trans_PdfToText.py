@@ -61,7 +61,7 @@ def trans(id, secret, inputtext, line=10):
     for i in range(line):
         result_txt = papagoAPI(id, secret, inputtext[i])
         print("번역결과 {} : {}".format(i, result_txt))
-        text = result_txt + "\n"
+        text = text + result_txt + "\n"
         time.sleep(2)
 
     trans_file = open("./data/trans_result.txt", 'w')
