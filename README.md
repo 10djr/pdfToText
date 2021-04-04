@@ -12,26 +12,27 @@ Papago API는 한 번에 5,000자 1일에 10,000자 까지 번역 서비스를 �
 
 >네이버 파파고 API 번역 함수
 
->>def papagoAPI(id, secret, sentence)
+>>*def papagoAPI(id, secret, sentence)*
 
 
 >Pdf 파일에서 영어 문자를 추출하나 모든 단어에 개행문자 "\n"이 포함되어 있어서 "\n"을 제거한다음 단어에 "." 마침표가 포함된 단어를 정규표현식으로 찾아서 "\n"을 포함,
 
 >하나의 문장을 만들고 영어텍스트 파일로 저장하는 함수
 
->>def pdfToText(inputFile)
+>>*def pdfToText(inputFile)*
 
 
-Papago API 함수 결과값을 받아서 한글파일로 저장하는 함수
+>Papago API 함수 결과값을 받아서 한글파일로 저장하는 함수
 
-def trans(id, secret, inputfile, line=20)
+>>*def trans(id, secret, inputfile, line=20)*
 
 ### 20라인까지 번역 결과물
 
 >>문서 페이지 수 :  13
+
 >>Text length :  68569
 
-문장 길이 :  954
+*문장 길이 :  954*
 
 번역결과 0 : 적층 제조 19 (2018) 114–126 Science Direct 적층 제조 저널 홈 페이지: www.
 
