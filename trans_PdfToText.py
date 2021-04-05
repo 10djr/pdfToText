@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # pdf to text 함수 호출
     eng_text = pdfToText('./data/test.pdf')
     # Naver 번역 API ID, Secret(password)
-    id = "eCWsemgMBilUIXoI7y4q"
-    secret = "pmg0pQT9Gr"
+    id = "발급받은ClientID"
+    secret = "발급받은ClientSecret"
     # Text 영문, Papago 번역후 Text파일저
     trans(id, secret, eng_text, line=2)
