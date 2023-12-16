@@ -36,19 +36,19 @@ def pdfToText(inputFile):
     # Find a word with a period and create a sentence by a regular expression.
     txt = ""
     final_sent = re.compile("[a-z]*\.")
-    for i in range(len(to_text)):
-        txt = txt + to_text[i]
-        m = final_sent.findall(to_text[i])
+    for i in range(len(ext_text)):
+        txt = txt + ext_text[i]
+        m = final_sent.findall(ext_text[i])
         if m:
             txt = txt + "\n"
 
     # pdf to binary text 저장
-    file = open('./data/ext_text.txt', 'wb')
-    file.write(txt.encode('UTF-8'))
+    file = open('./data/ext_text.txt', 'w')
+    file.write(txt)
     file.close()
 
     # 저장된 TXT 파일 읽기
-    file = open('./data/ext_text.txt', 'rb')
+    file = open('./data/ext_text.txt', 'r')
     text = file.readlines()
     file.close()
 
