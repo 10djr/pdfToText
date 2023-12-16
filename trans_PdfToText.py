@@ -27,7 +27,7 @@ def pdfToText(inputFile):
     ext_text = ""
     temp = ""
     for i in doc:
-        temp = i.getText()
+        temp = i.get_text()
         temp = temp.replace("\n", " ")
         ext_text = ext_text + temp
         temp = ""
