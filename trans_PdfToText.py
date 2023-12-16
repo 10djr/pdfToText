@@ -1,4 +1,4 @@
-import fitz
+import fitz         # PyMuPDF v.1.23.5
 import requests
 import time
 import re
